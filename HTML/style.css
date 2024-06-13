@@ -1,0 +1,563 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.title {
+  color: #FAECE2;
+  text-align: center;
+  font-family: cursive;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  height: 100%;
+
+}
+
+.navbar {
+  padding: 20px 5%;
+  display: flex;
+  justify-content: space between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background-color: #12171a;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+.navbar .logo h1 {
+  color: white;
+  border-bottom: 4px solid#f63e4e;
+  font-family: sans-serif;
+}
+
+.navbar .menu li {
+  list-style: none;
+  display: inline-block;
+}
+
+.navbar .menu li a {
+  display: block;
+  margin-left: 40px;
+  color: white;
+  text-decoration: none;
+  border-bottom: 4px solid transperant;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar .menu li .active {
+  border-bottom: 4px solid #f63e4e;
+}
+
+.navbar .menu li a:hover {
+  border-bottom: 4px solid #f63e4e;
+}
+
+.banner {
+  width: 100%;
+  height: 70%;
+}
+
+.subtitle {
+  font-size: 45px;
+  color: black;
+  margin-top: 50px;
+  text-align: center;
+  opacity: 1;
+  transition: opacity 3s;
+  align-items: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.styling1 .animation {
+  height: 200vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.styling1 .active {
+  animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+
+.undertext {
+  margin: 60px;
+  opacity: 0;
+  transition: opacity 1s;
+  align-items: center;
+  border-color: black;
+}
+
+.content {
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  padding: 0 5%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.content h1 {
+  font-size: 50px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.pop { 
+font-size: 50px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+bottom: 300px;
+left: 50px;
+position: relative;
+}
+
+.sec2 { 
+padding: 0% 5px; 
+margin: 0px;
+}
+
+.sec2 .backpack { 
+padding: 0% 5px;
+bottom: 250px;
+position: relative; 
+width: 400px;
+left: 20px;
+margin-bottom: 0px;
+
+}
+
+.sec2 .hat { 
+position: relative;
+bottom: 250px; 
+width: 400px; 
+left: 70px;
+margin-bottom: 0px;
+}
+
+.sec2 .clothes { 
+position: relative; 
+bottom: 250px;
+left: 110px;
+width: 400px;
+margin-bottom: 0px;
+}
+
+.thrd_btn { 
+background-color: #f63e4e;
+  color: black;
+  margin-top: 30px;
+  padding: 15px 30px;
+  border: none;
+  font-size: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: relative;
+  bottom: 150px; 
+  right: 405px;
+  left: -200px;
+}
+
+.fourth_btn { 
+background-color: #f63e4e;
+  color: black;
+  margin-top: 30px;
+  padding: 15px 30px;
+  border: none;
+  font-size: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: relative;
+  bottom: 235px; 
+  left: 100px;
+}
+
+.fifth_btn { 
+background-color: #f63e4e;
+  color: black;
+  margin-top: 100px;
+  padding: 15px 30px;
+  border: none;
+  font-size: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: relative;
+  bottom: 155px; 
+  left:-890px;
+}
+
+.content .shorts { 
+  position: relative;
+  bottom: 425px;
+  left: 800px;
+ 
+ }
+
+.content button {
+  background-color: #f63e4e;
+  color: black;
+  margin-top: 30px;
+  padding: 15px 30px;
+  border: none;
+  font-size: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: relative;
+  bottom: 400px; 
+}
+
+.content .scdbtn { 
+  background-color: #f63e4e;
+  color: black;
+  margin-top: 30px;
+  padding: 15px 30px;
+  border: none;
+  font-size: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: relative;
+  bottom: 480px; 
+  left: 800px;
+
+}
+
+.heading { 
+  text-align: center;
+  margin:  0px; 
+  color: #424144;
+  margin-top: -100px;
+}
+
+.subheading {
+  text-align : center; 
+  font-size : 50px; 
+  font-family : Arial, Helvetica, sans-serif;
+} 
+
+.sec { 
+  padding: 10px 5%; 
+}
+/* Mens Page */
+
+.styling1 {
+  position: relative;
+  top : 0px;
+  width: 450px;
+  height: 450px;
+  margin-top: 100px;
+  margin-left: 100px;
+  float: right;
+
+}
+
+.styling2 {
+  position: relative;
+  top : 0px;
+  right: 1150px;
+  width: 350px;
+  height: 350px;
+  margin-top: 100px;
+  margin-left: 100px;
+  float: right;
+}
+
+.styling3 {
+  width: 0px;
+  height: 350px;
+  position: relative;
+  top : 150px;
+  right: 1150px;
+  width: 350px;
+  height: 350px;
+  float: left;
+}
+
+
+ .text {
+  position: relative; 
+  margin: 200px;
+  left: 200px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 10px;
+  line-height: 3;
+  animation: fadeIn 5s forwards;
+  font-weight: bold;
+  float: right;
+  }
+
+/* home page */
+.products { 
+  display: grid; 
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.products .card { 
+  width: 350px;
+  background: #f5f5f5;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  padding: 5px; 
+  margin-bottom: 20px; 
+  height: 450px;
+ 
+}
+
+.products .card img { 
+  height: 230px; 
+  width: 90%;
+ margin-left: 20px;
+}
+
+.products .card .desc { 
+  padding: 5px 20px; 
+  opacity: 0.8;
+
+}
+
+.products .card .title { 
+  font-weight: 900; 
+  font-size: 20px;
+  padding: 0 20px; 
+  color: #424144;
+}
+
+.products .card .box { 
+  display: flex; 
+  justify-content: space-between;
+  align-items: center; 
+  padding: 20px; 
+}
+
+.products .card .box .price { 
+  font-size: 20px; 
+  font-weight: bold; 
+  color: #f63e4e; 
+
+} 
+
+.products .card .box .btn { 
+  font-size: 13px; 
+  color: #f63e4e;
+  padding: 10px 18px; 
+  font-weight: 900px; 
+  border: 1px solid #f63e4e;
+  border-radius: 20px;
+}
+
+.products .card .box .btn:hover { 
+  cursor: pointer; 
+  background-color: #f63e4e;
+  color: white;
+  
+}
+
+
+/* footer */ 
+
+footer { 
+background-color: #f3f4f6 ;
+height: 10vh;  
+bottom:0;
+left:0;
+right:0;
+}
+
+footer p {
+ text-align: center; 
+ line-height: 10vh; 
+}
+
+footer p a { 
+text-decoration: none;
+color: #f63e4e; 
+font-weight: bold;
+}
+
+.position {
+margin-left: 30px;
+padding-left: 30px;
+}
+
+
+.products .card .styling1 {
+  height: 300px;
+  width: 300px; 
+}
+
+.products .card .styling2 {
+
+width:  290px;
+}
+
+.styling3 {
+padding: 0% 5px;
+bottom: -480px;
+position: relative; 
+width: 500px;
+left: 20px;
+margin-bottom: 0px;
+}
+
+.styling4 {
+padding: 0% 5px;
+bottom: -480px;
+position: relative; 
+width: 500px;
+left: -400px;
+height: 480px;
+margin-bottom: 500px;
+margin-top: 75px;
+margin-right: -8000px;
+}
+.styling5 { 
+padding: 0% 5px;
+bottom: -515px;
+position: relative; 
+width: 500px;
+left: -600px;
+height: 480px;
+margin-bottom: 500px;
+margin-top: 30px;
+margin-right: -8000px;
+}
+.subimg2 {
+width: 400px;
+height: 299px;
+align-items: center;
+margin-left: 100px;
+} 
+.subimg1 {
+width: 300px;
+height: 300px;
+float: center;
+margin-left: 90px;
+}
+.subimg3 {
+width: 300px;
+height: 300px;
+float: center;
+margin-left: 90px;
+}
+
+
+
+.products .card1 { 
+width: 350px;
+background: #f5f5f5;
+box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+border-radius: 5px;
+padding: 5px; 
+bottom: 300px;
+height: 450px;
+}
+
+/* Womens Page */ 
+
+.womensimage .text-container p {
+position: relative; 
+margin: 170px;
+left: 100px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 20px;
+line-height: 3;
+animation: fadeIn 5s forwards;
+font-weight: bold;
+}
+
+.womensimage img { 
+float: left;
+}
+
+.womensimage1 img { 
+position: relative;
+float: right;
+height: 400px;
+width: 400px;
+right: 140px;
+bottom: 200px;
+}
+
+.womensimage1 .text-container1 p {
+position: relative; 
+margin: 170px;
+right: 160px;
+bottom: 100px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 20px;
+line-height: 2;
+animation: fadeIn 5s forwards;
+font-weight: bold;
+}
+
+
+  .womensimage2 img { 
+    position: relative;
+    float: left;
+    width: 400px;
+    left: 100px;
+    bottom: 110px;
+    }
+    
+    .womensimage2 .text-container2 p {
+    position: relative; 
+    margin: 170px;
+    left: 250px;
+    top: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    line-height: 3;
+    animation: fadeIn 5s forwards;
+    font-weight: bold;
+    }
+
+
+@keyframes fadeIn {
+0% {
+  opacity: 0;
+}
+
+100% {
+  opacity: 1;
+}
+}
+.fix {
+  width: 300px  ;
+  height: 300px;
+}
+
+/* Checkout */ 
+
+
+
+
